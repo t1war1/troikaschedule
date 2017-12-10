@@ -1,0 +1,27 @@
+li>a{
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+li>a:hover{
+    background-color: beige;
+    color: maroon;
+}
+.active{
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.time{
+    height: 100px;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    color: beige;
+    border:solid beige 2px;
+    border-radius:50%;
+    padding-top:20px;
+    margin: 10px;
+}
+
+

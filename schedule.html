@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styleschedule.css">
+    <style>
+        body{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="container-fluid" style="border-bottom:  solid white 1px;">-->
+        <!--<div class="navbar">-->
+            <!--<div class="container-fluid" >-->
+                <!--<div class="navbar-header">-->
+                    <!--<a href="#"><img src="images/ieee_dtu.gif" height="40px" style="margin:10px;"></a>-->
+                    <!--<a href="#"><img src="images/dtu_logo.png" height="40px" style="margin:10px;"></a>-->
+                <!--</div>-->
+                <!--<div class="collapse navbar-collapse" id="navbarSupportedContent    ">-->
+                    <!--<ul class="nav navbar-nav navbar-right">-->
+                        <!--<li class="nav-item"><a class="nav-link" href="#" style="color: beige">Home</a></li>-->
+                        <!--<li class="nav-item"><a class="nav-link" href="#" style="color: beige">About</a></li>-->
+                        <!--<li class="nav-item"><a class="active nav-link" href="#" style="color: beige">Schedule</a></li>-->
+                        <!--<li class="nav-item"><a class="nav-link"  href="#" style="color: beige">Sponsors</a></li>-->
+                        <!--<li class="nav-item"><a class="nav-link" href="#" style="color: beige">Contact Us</a></li>-->
+                        <!--<li class="nav-item"><a class="nav-link"     href="#" style="color: beige">Register</a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <nav class="navbar navbar-expand-lg justify-content-between" style="border-bottom: solid white 1px">
+        <div class="navbar-header ml-5" style="border-right: solid 1px white">
+            <a href="#"><img src="images/ieee_dtu.gif" height="40px" style="margin:10px;"></a>
+            <a href="#"><img src="images/dtu_logo.png" height="40px" style="margin:10px;"></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background-color: beige"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item ml-2"><a class="nav-link" href="#" style="color: beige">Home</a></li>
+                <li class="nav-item ml-2"><a class="nav-link" href="#" style="color: beige">About</a></li>
+                <li class="nav-item ml-2"><a class="active nav-link" href="#" style="color: beige">Schedule</a></li>
+                <li class="nav-item ml-2"><a class="nav-link"  href="#" style="color: beige">Sponsors</a></li>
+                <li class="nav-item ml-2"><a class="nav-link" href="#" style="color: beige">Contact Us</a></li>
+                <li class="nav-item ml-2"><a class="nav-link"     href="#" style="color: beige">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div style="padding: 10px;border-bottom:solid 1px white">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div >
+                <img src="images/TroikaFinal.png" height="300px" style="display:block; margin: auto">
+            </div>
+            <p style="text-align: center;color: beige;font-size: 50px;font-family: Times New Roman, Times, serif;">The Annual Technical Fest of IEEE DTU</p>
+            <div class="row">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" >
+        <p style="text-align: center;color: beige;font-size: 50px;font-family: Times New Roman, Times, serif;">10 February - 12 February</p>
+        <div class="row justify-content-center">
+        <div class="col-1 time" id="day"></div>
+        <div class="col-1 time" id="hour"></div>
+        <div class="col-1 time" id="min"></div>
+        <div class="col-1 time" id="sec"></div>
+        </div>
+    </div>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>
