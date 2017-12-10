@@ -3,7 +3,7 @@ li>a{
     border-radius: 10px;
 
 }
-li>a:hover{
+.nav-item>.nav-link:hover{
     background-color: beige;
     color: maroon;
 }
@@ -18,10 +18,26 @@ li>a:hover{
     font-weight:bold;
     text-align: center;
     color: beige;
-    border:solid beige 2px;
+    border:solid beige 3px;
     border-radius:50%;
     padding-top:20px;
     margin: 10px;
 }
-
-
+#abc{
+    background-image: url("images/t.jpg");
+    background-size: cover;
+}
+#troika{
+    display:block;
+    margin: auto;
+    filter:brightness(100%);
+}
+#footer{
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    color: beige;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
