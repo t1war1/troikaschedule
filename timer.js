@@ -15,9 +15,9 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     day.innerHTML=days+"<br>days ";
-    hour.innerHTML=hours+"<br>hours";
-    min.innerHTML=minutes+"<br>minutes";
-    sec.innerHTML=seconds+"<br>seconds";
+    hour.innerHTML=hours+"<br>hrs";
+    min.innerHTML=minutes+"<br>min";
+    sec.innerHTML=seconds+"<br>sec";
 
     if (distance < 0) {
         clearInterval(x);
