@@ -30,6 +30,7 @@ li>a{
 #abc{
     background-image: url("images/t.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 #troika{
     display:block;
