@@ -49,6 +49,7 @@ li>a{
 }
 th,td{
     text-align: center;
+    background-color: white;
 }
 @media screen and (max-width: 560px) {
     #troika{
